@@ -3,6 +3,7 @@ import img from '../public/next.svg'
 import styles from "./page.module.css";
 import Contact from "./contact/page";
 import About from "./about/page";
+import Technologies from "./technologies/page";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         quidem?lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
       </p>
       <About />
+      <Technologies />
       <Contact />
     </main>
   );

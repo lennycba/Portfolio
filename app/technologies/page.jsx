@@ -6,24 +6,26 @@ export default function Technologies() {
   const defaultWidth = 110;
 
   const technologiesLeft = [
-    { name: "HTML", icon: "/HTML.gif", width: defaultWidth },
-    { name: "CSS", icon: "/CSS4.gif", width: defaultWidth },
-    { name: "REACT", icon: "/REACT.gif", width: defaultWidth },
-    { name: "JAVASCRIPT", icon: "/JS1.gif", width: defaultWidth },
-    { name: "REDUX", icon: "/REDUX.gif", width: defaultWidth },
+    { name: "HTML", icon: "/HTML10.png", width: defaultWidth },
+    { name: "CSS", icon: "/CSS13.png", width: defaultWidth },
+    { name: "REACT", icon: "/REACT10.png", width: defaultWidth },
+    { name: "JAVASCRIPT", icon: "/JS10.png", width: defaultWidth },
+    { name: "REDUX", icon: "/REDUX10.png", width: defaultWidth },
   ];
 
   const technologiesRight = [
-    { name: "NODEJS", icon: "/NODE2.gif", width: defaultWidth },
-    { name: "SEQUELIZE", icon: "/SEQUELIZE.gif", width: defaultWidth },
-    { name: "EXPRESS", icon: "/express.png", width: defaultWidth },
-    { name: "POSTGRESQL", icon: "/postgress4.png", width: defaultWidth },
-    { name: "GITHUB", icon: "/github5.png", width: defaultWidth },
+    { name: "NODEJS", icon: "/NODE10.png", width: defaultWidth },
+    { name: "SEQUELIZE", icon: "/SEQ10.png", width: defaultWidth },
+    { name: "EXPRESS", icon: "/EXP11.png", width: defaultWidth },
+    { name: "POSTGRESQL", icon: "/POSTGRE10.png", width: defaultWidth },
+    { name: "GITHUB", icon: "/GITHUB11.png", width: defaultWidth },
   ];
 
   return (
     <div className={styles.container}>
-      <h1 id="Technologies">Technologies</h1>
+      <div className={styles.titCont}>
+        <h1 id="Technologies">Technologies</h1>
+      </div>
       <div className={styles.box}>
         <div className={styles.column}>
           <ul className={styles.rowContainer}>

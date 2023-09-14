@@ -1,19 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 5vh;
+    height: 10vh;
     width: 100%;
-    background-color: rgb(21, 98, 213);
-    color:rgb(0, 0, 0);
-    position: fixed;
+    color:rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(0,0,0,0) 3%, rgba(0,0,0,1) 50%);
+    position:fixed;
+    font-family: 'Electrolize', sans-serif;
+    z-index: 9999;
+}
+
+
+.homeT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    height: 3vh;
+    width: 10vw;
+    font-size:x-large;
+}
+
+.homeT:hover{
+    
+    background-color: #ffffffdd;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 10vw;
+    font-weight: bolder;
+}
+
+.aboutT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    height: 3vh;
+    width: 5vw;
+    font-size:x-large;
+}
+
+.aboutT:hover{
+    
+    background-color: #ffffffdd;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 5vw;
+    font-weight: bolder;
+}
+
+.projectsT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    height: 3vh;
+    width: 6vw;
+    font-size:x-large;
+}
+
+.projectsT:hover{
+    
+    background-color: #ffffffdd;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 6vw;
+    font-weight: bolder;
+}
+
+.techT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    height: 3vh;
+    width: 8vw;
+    font-size:x-large;
+}
+
+.techT:hover{
+    
+    background-color: #ffffffdd;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 8vw;
+    font-weight: bolder;
+}
+
+.contacT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    height: 3vh;
+    width: 6vw;
+    font-size:x-large;
+}
+
+.contacT:hover{
+    
+    background-color: #ffffffdd;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    width: 6vw;
+    font-weight: bolder;
 }
 
 .home{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 50%;
+    width: 60%;
     height: 5vh;
 }
 
@@ -21,6 +121,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 40%;
+    width: 35%;
     height: 5vh;
 }

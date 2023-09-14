@@ -1,10 +1,11 @@
 import React from "react";
-import styles from "./about.module.css";
+import styles from "./project.module.css";
 
-function About() {
+function page() {
   return (
     <div className={styles.container}>
-      <div className={styles.titCont} id="About">
+      <div className={styles.titCont} id="Projects">
+        <h1>Projects</h1>
       </div>
       <div className={styles.content}>
         <h1>lalaa</h1>
@@ -19,4 +20,4 @@ function About() {
   );
 }
 
-export default About;
+export default page;

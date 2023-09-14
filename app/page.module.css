@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,10 +10,11 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-image: url('../public/background5.jpg');
+  background-image: url('../public/BG11.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  font-family: 'Electrolize', sans-serif;
 }
 
 .description {

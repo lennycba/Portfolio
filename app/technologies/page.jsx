@@ -23,8 +23,8 @@ export default function Technologies() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.titCont}>
-        <h1 id="Technologies">Technologies</h1>
+      <div className={styles.titCont} id="Technologies">
+        <h1>Technologies</h1>
       </div>
       <div className={styles.box}>
         <div className={styles.column}>

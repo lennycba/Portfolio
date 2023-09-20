@@ -3,17 +3,27 @@ import styles from "./about.module.css";
 
 function About() {
   return (
-    <div className={styles.container}>
-      <div className={styles.titCont} id="About">
+    <div className={styles.container} id="About">
+      <div className={styles.titCont}>
+        <h1>About me</h1>
       </div>
       <div className={styles.content}>
-        <h1>lalaa</h1>
-        <h2>sarasa sarasa sarasa</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut
-          consequuntur aut eaque distinctio iste! At nulla cupiditate totam non
-          porro, quisquam sit nam vel odit accusantium harum dolorem culpa!
-        </p>
+        <div className={styles.text}>
+          <h2>Welcome!!!</h2>
+          <h1>I'm Mario Lujan</h1>
+          <h3>Backend Oriented Full Stack web Developer</h3>
+          <p>
+            Mi amor por la tecnología me llevó a dar un giro luego
+            de graduarme como Arquitecto<br /> y afrontar un nuevo reto como <b>Full
+            Stack Web Developer.</b> <br /> 
+            Tengo fascinación por
+            la creación de sistemas eficientes, escalables y seguros<br /> que
+            respalden la funcionalidad esencial de las aplicaciones. ¡Estoy
+            ansioso por explorar<br /> nuevas oportunidades y contribuir al éxito de
+            un equipo dedicado!<br /> Si crees que podría ser una adición valiosa a tu equipo, ¡no dudes
+            en contactarte conmigo!
+          </p>
+        </div>
       </div>
     </div>
   );

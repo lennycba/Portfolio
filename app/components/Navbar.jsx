@@ -1,23 +1,35 @@
+'use client'
 import style from "./Navbar.module.css";
 import Link from "next/link";
+import { useState } from "react";
+
 const Navbar = () => {
+
+  const [currentSection,setCurrentSection] = useState('') 
+
+ const handleClick = (id) =>{
+    setCurrentSection(id)
+ }
   return (
     <div className={style.container}>
       <div className={style.home}>
         <div className={style.homeT}>
-          <Link href="#About">Mario Lujan</Link>
+          <Link onClick={()=>handleClick('')} href="#About">Mario Lujan</Link>
         </div>
       </div>
       <div className={style.others}>
-        <div className={style.projectsT}>
-          <Link href="#Projects">Projects</Link>
-        </div>
+          {currentSection !== '#Projects' && 
+          <div className={style.projectsT}>
+          <Link onClick={()=>handleClick("#Projects")} href="#Projects">Projects</Link>
+        </div>}
+        {currentSection !== "#Technologies" &&
         <div className={style.techT}>
-          <Link href="#Technologies">Technologies</Link>
-        </div>
+          <Link onClick={()=>handleClick("#Technologies")} href="#Technologies">Technologies</Link>
+        </div>}
+        {currentSection !== "#Contact" &&
         <div className={style.contacT}>
-          <Link href="#Contact">Contact</Link>
-        </div>
+          <Link onClick={()=>handleClick("#Contact")} href="#Contact">Contact</Link>
+        </div>}
       </div>
     </div>
   );

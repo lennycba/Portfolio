@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+  }
+  
+  .titCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    color: #ffffff;
+    background: radial-gradient(circle, rgba(0,0,0,0) 21%, rgba(0,0,0,1) 100%);
+  }
+  
+  .content{
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff32;
+    border-radius: 1vw;
+    height: 70vh;
+    width: 90vw;
+  }
+
+  .left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80%;
+      width: 40%;
+      border: 1px solid whitesmoke;
+      border-radius: 1rem;
+      transition: 0.3s ease-in-out;
+    }
+    .left:hover{
+      background-color: #ffffff;
+      color: black;
+    }
+
+    .left input:hover{
+        border-bottom: 1px solid rgb(0, 0, 0);
+        color: black;
+    }
+
+    .left:hover input:enabled{
+        color: rgb(0, 0, 0);
+    }
+
+    .left:hover textarea:hover{
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid black;
+    }
+
+    .left:hover textarea:enabled{
+        background-color: rgba(255, 255, 255, 0);
+        color: black;
+    }
+
+  .titForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    
+  }
+
+  .formCont{
+    display:flex;
+    flex-direction: column;
+    font-size: x-large;
+    height: 85%;
+    width: 90%;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 1em;
+  }
+
+
+  .form ::placeholder{
+    font-weight: lighter;
+    color: rgb(186, 182, 182);
+  }
+
+  .form input{
+    font-family: 'Electrolize', sans-serif;
+    text-align: start;
+    background-color: rgba(240, 248, 255, 0) ;
+    width: 100%;
+    height: 1.8rem;
+    padding: 0.3em;
+    font-size: large;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    transition: 0.3s ease-in-out;
+  }
+
+
+  .form textarea{
+    font-family: 'Electrolize', sans-serif;
+    background-color: rgba(240, 248, 255, 0);
+    outline: none;
+    border: 1px solid rgb(241, 241, 241);
+    width: 100%;
+    height: 100%;
+    padding: 0.3em;
+    font-size: large;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+
+  .name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+  }
+
+  .otherContacts{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+  }

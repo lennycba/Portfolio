@@ -1,0 +1,9 @@
+.footerCont{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    background-color: #000000bb;
+    bottom: 2px;
+    font-size:xx-small;
+}

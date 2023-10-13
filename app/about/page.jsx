@@ -18,7 +18,8 @@ function About() {
               Mi amor por la tecnología me llevó a dar un giro luego de
               graduarme como Arquitecto y afrontar un nuevo reto como Full Stack
               Web Developer.<br/>
-              Tengo fascinación por la creación de sistemas eficientes,
+              Comprometido, analítico y detallista, siempre estoy dispuesto a aprender.<br/>
+              tengo fascinación por la creación de sistemas eficientes,
               escalables y seguros que respalden la funcionalidad esencial de
               las aplicaciones.
             </b>
@@ -26,11 +27,12 @@ function About() {
           <p>
             <b>
               ¡Estoy ansioso por explorar nuevas oportunidades y contribuir al
-              éxito de un equipo dedicado!<br/>
+              éxito de un equipo dedicado! 🚀<br/>
               Si crees que podría ser una adición valiosa a tu equipo, ¡no dudes
-              en contactarte conmigo!
+              en contactarte conmigo!!!
             </b>
           </p>
+          <button className={styles.button}>Contáctame</button>
         </div>
         <div className={styles.img}>
           <Image src="/me.jpg" width={500} height={500} alt="Me" />

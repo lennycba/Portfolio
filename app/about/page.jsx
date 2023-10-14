@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./about.module.css";
 import Image from "next/image";
-
+import Link from "next/link";
 function About() {
+
+
   return (
     <div className={styles.container} id="About">
       <div className={styles.titCont}>
@@ -19,7 +21,7 @@ function About() {
               graduarme como Arquitecto y afrontar un nuevo reto como Full Stack
               Web Developer.<br/>
               Comprometido, analítico y detallista, siempre estoy dispuesto a aprender.<br/>
-              tengo fascinación por la creación de sistemas eficientes,
+              Tengo fascinación por la creación de sistemas eficientes,
               escalables y seguros que respalden la funcionalidad esencial de
               las aplicaciones.
             </b>
@@ -32,10 +34,12 @@ function About() {
               en contactarte conmigo!!!
             </b>
           </p>
-          <button className={styles.button}>Contáctame</button>
+          <div className={styles.contButton}>
+          <Link href="#Contact"><button className={styles.button}>Contáctame</button></Link>
+          </div>
         </div>
         <div className={styles.img}>
-          <Image src="/me.jpg" width={500} height={500} alt="Me" />
+          <Image className={styles.image} src="/me.jpg" width={500} height={500} alt="Me" />
         </div>
       </div>
     </div>

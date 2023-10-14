@@ -22,11 +22,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #d1d1d1;
+  background-color: #fffefe5f;
   border-radius: 1vw;
   height: 70vh;
   width: 90vw;
   transition: 0.3s ease-in-out;
+}
+
+.content:hover{
+  background-color: #ffffffcf;
 }
 
 .text{
@@ -34,6 +38,7 @@
   margin: auto;
   flex-direction: column;
   justify-content: center;
+  padding: 1rem;
   margin-left: 5rem;
   height: 70%;
   width: 55%;
@@ -46,4 +51,33 @@
   display: flex;
   justify-content: center;
   width: 40%;
+}
+.image{
+  border-radius: 500px;
+}
+
+.contButton{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  height: 50px;
+  width: 160px;
+  border-radius: 8px;
+  color: black;
+  font-family: 'Electrolize', sans-serif;
+  font-size:22px;
+  font-weight: bolder;
+  background-color:#f5f3f3;
+  transition: 0.1s ease-in-out;
+}
+
+.button:hover{
+  background-color: rgba(5, 57, 99, 0.806);
+  color: #ffffff;
+}
+
+.button:active{
+  transform: scale(0.97);
 }

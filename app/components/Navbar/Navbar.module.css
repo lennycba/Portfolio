@@ -33,23 +33,12 @@
     font-weight: bolder;
 }
 
-.aboutT{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.2s ease-in-out;
-    height: 3vh;
-    width: 5vw;
-    font-size:x-large;
+.homeT .Link{
+    transition: 0.15s ease-in-out;
 }
 
-.aboutT:hover{
-    
-    background-color: #ffffffdd;
-    color: rgb(0, 0, 0);
-    height: 10vh;
-    width: 5vw;
-    font-weight: bolder;
+.homeT .Link:active{
+    transform: scale(1.05);
 }
 
 .projectsT{

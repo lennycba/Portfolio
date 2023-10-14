@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className={style.container}>
       <div className={style.home}>
         <div className={style.homeT}>
-          <Link onClick={()=>handleClick('')} href="#About">Mario Lujan</Link>
+          <Link className={style.Link} onClick={()=>handleClick('')} href="#About">Mario Lujan</Link>
         </div>
       </div>
       <div className={style.others}>
